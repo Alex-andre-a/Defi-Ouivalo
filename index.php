@@ -7,17 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Message API</title>
 
-    <!-- FRAMEWORK -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
-    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-
-    <!-- FONT -->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet">
-
-    <!-- CSS & JS -->
+    <!-- CSS -->
     <link rel="stylesheet" href="style.css">
 
 </head>
@@ -25,13 +15,13 @@
 <body>
     <?php
 
-    $gateway_url = "https://script.google.com/macros/s/AKfycby-TJmFFUFTfiNUbMoSIZx8LVtiskQ-bUt4xO6hmrU0XQpJS8IPUBow/exec";
+    $gateway_url = "";
     
     $action = "send-message";
     
     $apiKey  = "CLE-TEST-IOT";
     
-    $senderID  = "alexandre.arfini@gmail.com";
+    $senderID  = "";
 
     $date = "15/09/2022";
 
