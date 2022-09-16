@@ -1,1 +1,62 @@
-/*# sourceMappingURL=style.css.map */
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Lobster", cursive;
+  letter-spacing: 1.5px;
+}
+
+body {
+  height: 100vh;
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+  gap: 40px;
+  background-color: #ecf6e5;
+}
+body .titre {
+  margin-top: 10px;
+}
+body .formulaire {
+  border: 4px solid #2fba88;
+  box-shadow: 1px 1px 10px black;
+  padding: 10px;
+  border-radius: 12px;
+  display: flex;
+  flex-flow: column;
+}
+body .formulaire .formTitre {
+  margin: 10px;
+  color: #2fba88;
+}
+body .formulaire label {
+  padding: 5px 0;
+  padding-left: 2px;
+  color: black;
+}
+body .formulaire input,
+body .formulaire textarea {
+  border: none;
+  color: black;
+  width: 80%;
+  margin: 0 auto;
+  margin-bottom: 25px;
+  border-radius: 15px;
+  padding: 10px;
+  background-color: #f5f19c;
+}
+body .formulaire ::-moz-placeholder {
+  color: black;
+}
+body .formulaire :-ms-input-placeholder {
+  color: black;
+}
+body .formulaire ::placeholder {
+  color: black;
+}
+body .formulaire input[type=submit] {
+  width: 30%;
+  padding: 8px 0;
+}
+body .formulaire input[type=submit]:hover {
+  background-color: #2fba88;
+}/*# sourceMappingURL=style.css.map */

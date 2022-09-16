@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Défi Ouivalo</title>
+
+    <!-- FONTS -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet">
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+    <div class="titre">
+        <img src="/assets/img/logo-ligne-vert-clair-1.png" alt="logo">
+    </div>
+    <form class="formulaire">
+        <div class="formTitre"><h2>Formulaire pour le défi</h2></div>
+        <label for="cle">Clé</label>
+        <input type="text" name="cle" id="cle" placeholder="Votre clé" required>
+
+        <label for="id">Id</label>
+        <input type="text" name="id" id="id" placeholder="Votre id" required>
+
+        <label for="date">Date</label>
+        <input type="date" name="date" id="date" required>
+
+        <label for="url">Lien de votre projet</label>
+        <input type="url" name="url" id="url" placeholder="https://example.com" pattern="https://.*" size="30" required>
+
+        <label for="message">Message</label>
+        <textarea name="message" id="message" cols="30" rows="6" placeholder="Votre message ici ..."
+            required></textarea>
+
+        <input type="submit" value="Envoyer">
+    </form>
+</body>
+
+</html>
