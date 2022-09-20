@@ -1,5 +1,5 @@
 <?php
-    $email = "alexandre.arfini@gmail.com";
+    $email = "mon mail";
     $name = "Alexandre";
     $body = "Bonjour j'espèque que vous avez bien reçu mon message :) <br><br><a href='https://github.com/Alex-andre-a/Defi-Ouivalo'>Lien GH</a>";
     $subject = "CLE-TEST-IOT";
@@ -21,7 +21,7 @@
             )
         ),
         "from" => array(
-            "email" => "candidat.e@ouivalo.fr"
+            "email" => "mail"
         ),
         "subject" => $subject,
         "content" => array(
@@ -33,7 +33,7 @@
     );
 
     $ch = curl_init();
-    curl_setopt($ch, CURLOPT_URL, "https://script.google.com/macros/s/AKfycby-TJmFFUFTfiNUbMoSIZx8LVtiskQ-bUt4xO6hmrU0XQpJS8IPUBow/exec");
+    curl_setopt($ch, CURLOPT_URL, "API");
     curl_setopt($ch, CURLOPT_POST, 1);
     curl_setopt($ch, CURLOPT_POSTFIELDS, json_encode($data));
     curl_setopt($ch, CURLOPT_HTTPHEADER, $headers);
